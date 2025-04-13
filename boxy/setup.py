@@ -22,6 +22,7 @@ setup(
         'console_scripts': [
                 'publisher_node = boxy.publisher:main',
                 'subscriber_node = boxy.subscriber:main',
+                'cmdVel_to_pwm_node = boxy.cmd_to_pwm_driver:main',
                            ],
                  },
 )
